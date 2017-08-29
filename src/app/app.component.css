@@ -1,0 +1,40 @@
+.body-wrapper {
+  height: calc(100vh - 50px);
+  overflow: auto;
+  border-bottom: 1px solid black;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pager {
+  text-align: center;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.issue-div {
+  border: 1px solid rgba(0,0,0,.3);
+  border-bottom: 0px solid white;
+  padding: 15px;
+}
+
+.issue-body {
+  font-size: 12px;
+}
